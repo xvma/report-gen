@@ -13,6 +13,7 @@
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Примеры использования
 
@@ -22,6 +23,7 @@ python report_gen.py --files data.csv --report performance
 
 # Обработка нескольких файлов
 python report_gen.py --files data1.csv data2.csv data3.csv --report performance
+```
 
 ## Запуск тестов
 
@@ -29,6 +31,7 @@ python report_gen.py --files data1.csv data2.csv data3.csv --report performance
 
 ```bash
 pytest test_report_gen.py -v
+```
 
 ## Добавление новых отчетов
 
